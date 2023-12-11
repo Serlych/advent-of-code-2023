@@ -1,4 +1,4 @@
-const file = Bun.file('./day-1-1-input.txt');
+const file = Bun.file('./input/day-1.txt');
 const text = await file.text();
 const lines = text.split('\n');
 
